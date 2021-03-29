@@ -75,13 +75,31 @@ body {
 
   /* HERO STYLE */
     .hero {
-      background-image: url("../images/hero-bg.jpg");
+      background-image: url("../images/hero-bg.jpeg");
       height: 600px;
       background-size: cover;
       background-position: center;
       position: relative;
   }
 
+  /*Hero Habits Text*/
+
+    .hero-cta {
+        width: 500px;
+        padding: 20px;
+    }
+    .hero-cta h2 {
+        color: #fce138;
+        font-style: italic;
+        text-align: right;
+        font-size: 50px;
+    }
+
+    .hero-cta p {
+        color: #ffffff;
+        text-align: right;
+
+    }
   /* Hero Form Formatting */
     .hero-form {
         background-color: #fce138;
