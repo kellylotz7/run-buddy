@@ -45,37 +45,10 @@ body {
   } 
 
   header nav ul li a {
-      margin: 0 30px;
+      padding: 10px 15px;
       font-weight: lighter;
       font-size: 1.55vw;
   }
-
-/* Footer */
-  footer {
-      background: #fce138;
-      width: 100%;
-      padding: 40px 35px;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-  }
-
-  footer h2 {
-      color: #024e76;
-      font-size: 30px;
-      margin: 0;
-  }
-
-  footer div {
-      line-height: 1.5;
-      text-align: right;
-   
-  }
-
-  footer a {
-      color: #024e76;
-  }
-
 
   /* HERO STYLE */
     .hero {
@@ -85,6 +58,7 @@ body {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
+      align-items: flex-start;
   }
 
   /*Hero Habits Text*/
@@ -95,7 +69,7 @@ body {
             margin: 3.5%;
             color: #fff;
             font-size: 18px;
-            line-height: 1.3;
+            line-height: 1.2;
           }
 
     .hero-cta h2 {
@@ -154,7 +128,7 @@ body {
 
     /* Steps */
     .section-title {
-        font-size: 55px;
+        font-size: 48px;
         color: #024e76;
         border-bottom: 3px solid;
         padding-bottom: 20px;
@@ -271,6 +245,7 @@ body {
 
     .contact {
         background-color:#024e76;
+        padding: 0px 20px;
     }
 
     .contact h2 {
@@ -334,6 +309,33 @@ body {
           font-size: 16px;
       }
 
+
+        /* Footer */
+        footer {
+          background: #fce138;
+         width: 100%;
+          padding: 40px 35px;
+         display: flex;
+         justify-content: space-between;
+            flex-wrap: wrap;
+    }
+
+        footer h2 {
+         color: #024e76;
+         font-size: 30px;
+         margin: 0;
+    }
+
+        footer div {
+            line-height: 1.5;
+            text-align: right;
+ 
+    }
+
+        footer a {
+         color: #024e76;
+    }
+
       /*Utility Styles */
 
     .text-left {
@@ -351,3 +353,27 @@ body {
     .section {
         padding: 60px;
       }
+
+      /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header h1 a {
+      /* this will be applied on any screen smaller than 980px */
+      color: tomato;
+    }
+  }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    header h1 {
+      /* this will be applied on any screen between 768px and 575px */
+      font-size: 80px;
+    }
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    header h1 {
+      /* this will be applied on any screen smaller than 575px */
+      font-size: 100px;
+    }
+  }
