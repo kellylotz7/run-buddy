@@ -25,6 +25,7 @@ body {
       font-size: 36px;
       color: #fce138;
       margin: 0px;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   header a {
@@ -48,6 +49,7 @@ body {
       padding: 10px 15px;
       font-weight: lighter;
       font-size: 1.55vw;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   /* HERO STYLE */
@@ -76,6 +78,7 @@ body {
         color: #fce138;
         font-style: italic;
         font-size: 55px;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
     .hero-cta p {
